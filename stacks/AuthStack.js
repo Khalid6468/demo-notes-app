@@ -1,6 +1,5 @@
 import * as iam from "aws-cdk-lib/aws-iam";
 import * as sst from "@serverless-stack/resources";
-import { Scope } from "aws-cdk-lib/aws-ecs";
 
 export default class AuthStack extends sst.Stack {
     auth;
